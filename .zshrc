@@ -1,3 +1,6 @@
+# Env path
+export PATH=$HOME/.local/bin:$PATH
+
 # Start configuration added by Zim install {{{
 #
 # User configuration sourced by interactive shells
@@ -127,4 +130,4 @@ for key ('k') bindkey -M vicmd ${key} history-substring-search-up
 for key ('j') bindkey -M vicmd ${key} history-substring-search-down
 unset key
 # }}} End configuration added by Zim install
-
+ 

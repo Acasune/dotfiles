@@ -1,6 +1,3 @@
-# Env path
-export PATH=$HOME/.local/bin:$PATH
-
 # Start configuration added by Zim install {{{
 #
 # User configuration sourced by interactive shells

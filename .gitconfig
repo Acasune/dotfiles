@@ -3,3 +3,5 @@
 	email = tttt4aaaa@gmail.com
 [core]
 	sshCommand = ssh -T -i ~/.ssh/rsa_Github
+[include]
+	path = ~/.gitconfig_shared

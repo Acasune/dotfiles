@@ -1,0 +1,11 @@
+## all ignore'
+!/.github/**
+
+## white list
+!/.zshrc
+!/.zimrc
+!/.vimrc
+!/.gitconfig
+!/README.md
+!/LICENSE
+!/.github/**

@@ -1,5 +1,5 @@
-## all ignore'
-!/.github/**
+## all ignore
+/*
 
 ## white list
 !/.zshrc

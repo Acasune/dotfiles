@@ -1,3 +1,5 @@
 [user]
 	name = acasune
 	email = tttt4aaaa@gmail.com
+[include]
+	path = ~/.gitconfig_shared

@@ -15,6 +15,6 @@
 !/.config/
 !/.config/zsh/
 !/.config/zsh/**
-/.config/zsh/.zim/.zcompdump*
-/.config/zsh/.zim/.zim/.latest_version
-/.config/zsh/.zim/.zhistory
+/.config/zsh/.zcompdump*
+/.config/zsh/*history
+/.config/zsh/.zim/

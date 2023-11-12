@@ -11,6 +11,12 @@ alias ll='ls -l --color=auto'
 # bat
 alias bcat='/usr/bin/batcat'
 
+# exa
+alias ea='exa -aF'
+alias eea='exa -alF'
+alias es='exa'
+alias ee='exa -l'
+
 # docker
 
 # git

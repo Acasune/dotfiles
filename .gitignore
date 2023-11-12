@@ -1,11 +1,20 @@
 ## all ignore
 /*
+/.**
 
 ## white list
-!/.zshrc
+!/install.sh
+!/.zshenv
 !/.zimrc
 !/.vimrc
 !/.gitconfig
+!/.gitignore
 !/README.md
 !/LICENSE
 !/.github/**
+!/.config/
+!/.config/zsh/
+!/.config/zsh/**
+/.config/zsh/.zim/.zcompdump*
+/.config/zsh/.zim/.zim/.latest_version
+/.config/zsh/.zim/.zhistory

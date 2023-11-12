@@ -1,6 +1,6 @@
-export ZHOMEDIR=$HOME/.dotconfigs/zsh
+export ZHOMEDIR=$HOME/.config/zsh
 export ZRCDIR=$ZHOMEDIR/rc
-
+# export ZDOTDIR=$ZHOMEDIR/.zim
 ### locale ###
 export LANG="en_US.UTF-8"
 # Env path

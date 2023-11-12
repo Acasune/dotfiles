@@ -1,9 +1,10 @@
-export ZHOMEDIR=$HOME/.config/zsh
-export ZRCDIR=$ZHOMEDIR/rc
-# export ZDOTDIR=$ZHOMEDIR/.zim
+export XDG_CONFIG_HOME="$HOME/.config"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export ZRCDIR="$ZDOTDIR/rc"
+
 ### locale ###
 export LANG="en_US.UTF-8"
 # Env path
-export PATH=$HOME/.local/bin:$PATH
+export "PATH=$HOME/.local/bin:$PATH"
 
-source "$ZHOMEDIR/.zshrc"
+source "$ZDOTDIR/.zshrc"

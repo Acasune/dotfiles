@@ -8,3 +8,7 @@ export LANG="en_US.UTF-8"
 export "PATH=$HOME/.local/bin:$PATH"
 
 source "$ZDOTDIR/.zshrc"
+
+if [ -f "$ZDOTDIR/.zshenv.local" ]; then
+	source "$ZDOTDIR/.zshenv.local"
+fi

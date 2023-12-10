@@ -18,3 +18,4 @@
 /.config/zsh/.zcompdump*
 /.config/zsh/*history
 /.config/zsh/.zim/
+/.config/zsh/.zshenv.local

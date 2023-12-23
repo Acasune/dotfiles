@@ -27,6 +27,7 @@ path=(
     '/usr/local/sbin'(N-/)
     '/usr/sbin'(N-/)
     '/sbin'(N-/)
+    "$path[@]"
 )
 
 path=(

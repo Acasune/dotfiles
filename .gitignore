@@ -15,6 +15,8 @@
 !/.config/
 !/.config/zsh/
 !/.config/zsh/**
+!/.config/zeno
+!/.config/zeno/**
 /.config/zsh/.zcompdump*
 /.config/zsh/*history
 /.config/zsh/.zim/

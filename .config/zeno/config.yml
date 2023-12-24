@@ -21,6 +21,18 @@ snippets:
     snippet: git commit -m '{{commit_message}}'
 
   # dockers
+  - name: docker compose up -d
+    keyword: dcu
+    snippet: docker compose up -d
+
+  - name: docker compose down
+    keyword: dcd
+    snippet: docker compose down
+
+  - name: docker container ls -a
+    keyword: dcla
+    snippet: docker container ls -a
+
 
   # the others
 

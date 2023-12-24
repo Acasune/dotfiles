@@ -14,6 +14,5 @@ alias eea='exa -alF'
 alias es='exa'
 alias ee='exa -l'
 
-# docker
-
-# git
+# others
+alias pbcopy='xsel --clipboard --input'

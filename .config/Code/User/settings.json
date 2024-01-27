@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "'SF Mono Powerline', 'Source Code Pro',monospace",
+    "editor.formatOnSave": true,
+    "diffEditor.maxComputationTime": 0,
+    "workbench.startupEditor": "none",
+}

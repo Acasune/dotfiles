@@ -25,6 +25,7 @@ export GOPATH="$XDG_DATA_HOME/go"
 export DOTNET_ROOT="$XDG_DATA_HOME/.dotnet"
 
 #Others
+export DOCKER_CONFIG="$XDG_DATA_HOME/docker"
 export FZF_HOME="$XDG_DATA_HOME/.fzf/"
 
 path=(

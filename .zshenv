@@ -21,6 +21,9 @@ export DENO_HOME="$XDG_DATA_HOME/deno"
 # Go
 export GOPATH="$XDG_DATA_HOME/go"
 
+#Dotnet
+export DOTNET_ROOT="$XDG_DATA_HOME/.dotnet"
+
 #Others
 export FZF_HOME="$XDG_DATA_HOME/.fzf/"
 
@@ -31,16 +34,14 @@ path=(
     '/usr/local/sbin'(N-/)
     '/usr/sbin'(N-/)
     '/sbin'(N-/)
-    "$path[@]"
-)
-
-path=(
-	"$HOME/.local/bin"(N-/)
+    "$HOME/.local/bin"(N-/)
     "$CARGO_HOME/bin"(N-/)
     "$GOPATH/bin"(N-/)
     "$DENO_HOME/bin"(N-/)
+    "$DOTNET_ROOT"
+    "$DOTNET_ROOT/tools"
     "$FZF_HOME/bin"(N-/)
-	"$path[@]"
+    "$path[@]"
 )
 
 # Read Other files

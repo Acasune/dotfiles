@@ -8,6 +8,18 @@ snippets:
     keyword: gs
     snippet: git status --short --branch
 
+  - name: git branch
+    keyword: b
+    snippet: branch
+    context:
+      lbuffer: "^git\\s"
+
+  - name: git switch
+    keyword: sw
+    snippet: switch
+    context:
+      lbuffer: "^git\\s"
+
   - name: git push
     keyword: gpsh
     snippet: git push
@@ -21,6 +33,16 @@ snippets:
     snippet: git commit -m '{{commit_message}}'
 
   # dockers
+  - name: docker
+    keyword: d
+    snippet: docker
+
+  - name: docker compose
+    keyword: c
+    snippet: compose
+    context:
+      lbuffer: "^docker\\s"
+
   - name: docker compose up -d
     keyword: dcu
     snippet: docker compose up -d
@@ -33,6 +55,9 @@ snippets:
     keyword: dcla
     snippet: docker container ls -a
 
+  - name: docker container prune
+    keyword: dcp
+    snippet: docker container prune -f
 
   # the others
 

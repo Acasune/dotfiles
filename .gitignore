@@ -8,7 +8,6 @@
 !/.zshenv
 !/.zimrc
 !/.vimrc
-!/.gitconfig
 !/.gitignore
 !/README.md
 !/LICENSE

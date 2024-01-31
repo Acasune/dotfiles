@@ -61,10 +61,3 @@ path=(
     "$FZF_HOME/bin"(N-/)
     "$path[@]"
 )
-
-# Read Other files
-source "$ZDOTDIR/.zshrc"
-
-if [ -f "$ZDOTDIR/.zshenv.local" ]; then
-    source "$ZDOTDIR/.zshenv.local"
-fi

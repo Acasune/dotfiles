@@ -60,6 +60,11 @@ snippets:
     snippet: docker container prune -f
 
   # the others
+  - name: home
+    keyword: tld
+    snippet: $HOME/{{commit_message}}
+    context:
+      lbuffer: '.+\s'
 
   - name: "null"
     keyword: "null"

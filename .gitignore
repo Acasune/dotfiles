@@ -15,11 +15,8 @@
 !/.config/
 !/.config/alacritty/alacritty.toml
 !/.config/alacritty/themes/themes/tokyo-night-storm.toml
-!/.config/Code/User/settings.json
-!/.config/Code/User/keybindings.json
 !/.config/nvim/
 !/.config/nvim/**
-
 !/.config/zsh/
 !/.config/zsh/**
 !/.config/zellij/
@@ -29,4 +26,3 @@
 /.config/zsh/*history
 /.config/zsh/.zim/
 /.config/zsh/.zshenv.local
-!/.vscode/extensions/extensions.json

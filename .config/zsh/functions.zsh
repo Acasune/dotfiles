@@ -15,7 +15,7 @@ rmr() {
     if [[ "$#" -eq 0 ]]; then
         echo "rm -rf: オペランドがありません"
     else
-        command mkdir -p "$@"
+        command rm -rf "$@"
     fi
 }
 

@@ -19,3 +19,5 @@ fi
 
 # others
 alias pbcopy='xsel --clipboard --input'
+alias reload='exec $SHELL -l'
+alias v='nvim'

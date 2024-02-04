@@ -70,7 +70,7 @@ require('lazy').setup({
   -- NOTE: First, some plugins that don't require any configuration
   spec = {
     -- add LazyVim and import its plugins
-    { 'LazyVim/LazyVim',                            import = 'lazyvim.plugins' },
+    { 'LazyVim/LazyVim', import = 'lazyvim.plugins' },
     -- import any extras modules here
     { import = 'lazyvim.plugins.extras.lang.go' },
     { import = 'lazyvim.plugins.extras.lang.rust' },
@@ -99,7 +99,7 @@ require('lazy').setup({
 
       -- Useful status updates for LSP
       -- NOTE: `opts = {}` is the same as calling `require('fidget').setup({})`
-      { 'j-hui/fidget.nvim',       opts = {} },
+      { 'j-hui/fidget.nvim', opts = {} },
 
       -- Additional lua configuration, makes nvim stuff amazing!
       'folke/neodev.nvim',
@@ -122,9 +122,9 @@ require('lazy').setup({
       'rafamadriz/friendly-snippets',
     },
   },
-
+  ---
   -- Useful plugin to show you pending keybinds.
-  { 'folke/which-key.nvim',  opts = {} },
+  { 'folke/which-key.nvim', opts = {} },
   {
     -- Adds git related signs to the gutter, as well as utilities for managing changes
     'lewis6991/gitsigns.nvim',
@@ -280,7 +280,6 @@ require('lazy').setup({
     },
   },
   { import = 'custom.plugins' },
-  { import = 'lazyvim.plugins.extras.lang.go' },
 }, {})
 
 -- [[ Setting options ]]
@@ -684,6 +683,5 @@ cmp.setup {
     { name = 'path' },
   },
 }
-
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

@@ -1,7 +1,8 @@
 ## all ignore
-*
+/*
 /.**
 
+!*/
 ## white list
 !/install.sh
 !/.zshenv
@@ -12,18 +13,20 @@
 !/LICENSE
 !/.github/**
 !/.config/
-!/.config/alacritty/
 !/.config/alacritty/alacritty.toml
-!/.config/alacritty/themes/
-!/.config/alacritty/themes/tokyo-night-storm.toml
-!/.config/nvim/
+!/.config/alacritty/themes/themes/tokyo-night-storm.toml
+!/.config/Code/User/settings.json
+!/.config/Code/User/keybindings.json
+!/.config/nvim/**
 !/.config/nvim/**
 !/.config/zsh/
 !/.config/zsh/**
 !/.config/zellij/
 !/.config/zellij/**
+!/.config/zeno/
 !/.config/zeno/**
 /.config/zsh/.zcomp*
 /.config/zsh/*history
 /.config/zsh/.zim/
 /.config/zsh/.zshenv.local
+!/.vscode/extensions/extensions.json

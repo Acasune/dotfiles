@@ -62,3 +62,7 @@ docker-rmi() {
 }
 
 # --]]
+zshaddhistory() {
+    local line="${1%%$'\n'}"
+    [[ ! "$line" =~ "^(cd|history|lazygit|la|ll|ls|rm|rmdir|trash|es|ee|eea)($| )" ]]
+}

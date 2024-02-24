@@ -1,5 +1,5 @@
 // If you'd like to override the default keybindings completely, be sure to change "keybinds" to "keybinds clear-defaults=true"
-keybinds {
+keybinds clear-defaults=true{
     normal {
         // uncomment this and adjust key if using copy_on_select=false
         // bind "Alt c" { Copy; }
@@ -154,8 +154,8 @@ keybinds {
         bind "Alt k" "Alt Up" { MoveFocus "Up"; }
         bind "Alt =" "Alt +" { Resize "Increase"; }
         bind "Alt -" { Resize "Decrease"; }
-    //    bind "Alt [" { PreviousSwapLayout; }
-    //   bind "Alt ]" { NextSwapLayout; }
+        unbind "Alt [" { PreviousSwapLayout; }
+        unbind "Alt ]" { NextSwapLayout; }
     }
     shared_except "normal" "locked" {
         bind "Enter" "Esc" { SwitchToMode "Normal"; }
@@ -175,12 +175,12 @@ keybinds {
     shared_except "tab" "locked" {
         bind "Ctrl t" { SwitchToMode "Tab"; }
     }
-    shared_except "move" "locked" {
-        bind "Ctrl h" { SwitchToMode "Move"; }
-    }
-   // shared_except "tmux" "locked" {
-   //     bind "Ctrl b" { SwitchToMode "Tmux"; }
-   // }
+    // shared_except "move" "locked" {
+    //    bind "Ctrl h" { SwitchToMode "Move"; }
+    // }
+    // shared_except "tmux" "locked" {
+    //     bind "Ctrl b" { SwitchToMode "Tmux"; }
+    // }
 }
 
 plugins {
